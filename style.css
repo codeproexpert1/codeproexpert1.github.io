@@ -272,6 +272,66 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
+/* Blue Gradient - For Web/Frontend Projects */
+.project-card.gradient-blue {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.project-card.gradient-blue h3,
+.project-card.gradient-blue p,
+.project-card.gradient-blue .tech-used,
+.project-card.gradient-blue .project-link {
+    color: white;
+}
+
+.project-card.gradient-blue .project-icon {
+    color: #fbbf24;
+}
+
+/* Green Gradient - For Backend/Data Projects */
+.project-card.gradient-green {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    color: white;
+}
+
+.project-card.gradient-green h3,
+.project-card.gradient-green p,
+.project-card.gradient-green .tech-used,
+.project-card.gradient-green .project-link {
+    color: white;
+}
+
+.project-card.gradient-green .project-icon {
+    color: #fef3c7;
+}
+
+/* Orange Gradient - For AI/ML Projects */
+.project-card.gradient-orange {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
+.project-card.gradient-orange h3,
+.project-card.gradient-orange p,
+.project-card.gradient-orange .tech-used,
+.project-card.gradient-orange .project-link {
+    color: white;
+}
+
+.project-card.gradient-orange .project-icon {
+    color: #fde68a;
+}
+
+/* Purple Gradient - For Mobile/React Projects */
+.project-card.gradient-purple {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    color: #1f2937;
+}
+
+.project-card.gradient-purple .project-icon {
+    color: #8b5cf6;
+}
 
 .project-card {
     background-color: var(--white);
